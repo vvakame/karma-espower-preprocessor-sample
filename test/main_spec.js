@@ -1,3 +1,5 @@
+"use strict";
+
 describe("index.js", function () {
     describe("hello", function () {
         it("returns 'Hello, world' without parameter", function () {

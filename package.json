@@ -4,17 +4,19 @@
   "private": true,
   "description": "sample of karma-espower-preprocessor",
   "scripts": {
+    "postinstall": "bower install",
     "test": "karma start"
   },
   "author": "vvakame",
   "license": "MIT",
   "devDependencies": {
-    "karma": "^0.12.24",
-    "karma-chrome-launcher": "^0.1.5",
-    "karma-espower-preprocessor": "^0.0.3",
-    "karma-jasmine": "^0.1.5",
-    "karma-mocha": "^0.1.9",
-    "mocha": "^2.0.1",
-    "power-assert": "^0.9.1"
+    "bower": "^1.7.9",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-espower-preprocessor": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha": "^1.0.1",
+    "mocha": "^2.4.5",
+    "power-assert": "^1.4.0"
   }
 }

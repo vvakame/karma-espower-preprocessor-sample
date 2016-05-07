@@ -13,6 +13,6 @@
     "tests"
   ],
   "devDependencies": {
-    "power-assert": "~0.9.1"
+    "power-assert": "^1.4.0"
   }
 }
